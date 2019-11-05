@@ -47,3 +47,4 @@ void fileCrawlerTest() {
     starter.start(); // 启动遍历方法
 }
 ```
+# 注意：由于涉及多线程，不能使用@Test测试，必须用http请求的方式
